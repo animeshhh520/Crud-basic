@@ -1,5 +1,4 @@
 <?php
-// This file is included in index.html to display the table data
 include 'db_connect.php';
 
 $sql = "SELECT id, name, email, phone FROM students";
